@@ -1,0 +1,17 @@
+<template name="component_slider">
+	<!-- 
+		Note that the naming of the classes and the order of the  
+		HTML should be as below.
+	-->
+	<div class="sliderContainer">
+		<div class="slider" style="width: {{sliderWidth}}%">
+			{{#each slides}}
+				<div class="slide">
+					<p>
+						{{content}}
+					</p>
+				</div>
+			{{/each}}
+		</div>
+	</div>
+</template>

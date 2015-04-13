@@ -5,5 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
+iron:router
+less
+mrt:lesshat
+matfin:slider
